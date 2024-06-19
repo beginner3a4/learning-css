@@ -1,3 +1,33 @@
 body{
-    background-color: rgb(59, 59, 244);
+    margin:0;
+    padding:0;
+    background-color: rgba(250, 224, 224, 0.521);
+    font-family: 'LATO';
+    box-sizing: border-box;
+}
+header{
+
+}
+#navbar{
+    margin :0 auto;
+    width: 95%;
+    height:10vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo-container{
+    display: flex;
+}
+#nav-items{
+    display: flex;
+    width:700px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#nav-items li{
+    cursor: pointer;
 }
